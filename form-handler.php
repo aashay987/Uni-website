@@ -10,7 +10,7 @@ $email_body= "Username : $name.\n"
             "Subject : $subject.\n"
             "User Email: $message.\n";
 
-$to ='aashaypatel9091@gmail.com';
+$to ='client@gmail.com';
 $headers = "From: $email_from \r\n";
 $headers = "Reply to $visitor_email \r\n";
 mail($to,$subject,$email_body,$headers)
